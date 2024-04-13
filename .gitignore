@@ -32,3 +32,55 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python
+*.py[cod]
+__pycache__/
+
+# Node
+node_modules/
+
+# Docker
+*.override.yml
+
+# Ansible
+*.vault
+
+# Environment files
+*.env
+
+# Ignore deployment credentials
+*.pem
+*.ppk
+
+# Ignore AWS CLI configuration
+.aws/
+aws/
+awscliv2.zip
+
+# Ignore Terraform lock files and local workspace
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+terraform.tfvars.json
+terraform.tfplan
+terraform.tfstate.backup
+
+# Ignore temporary files that can be regenerated
+*.log
+*.bak
+*.tmp
+*.swp
+
+
+.notes.txt
